@@ -1,11 +1,11 @@
 /* 定义自定义字体 */
 @font-face {
     font-family: 'Andy Bold';
-    src: url('fonts/AndyBold.ttf') format('truetype');
+    src: url('fonts/Andy Bold.ttf') format('truetype');
 }
 
 body {
-    background-color: #8B0000; /* 更深的复古红色背景 */
+    background-color: #6B8E23; /* 深绿色背景 */
     color: #FFFFFF;
     font-family: 'Andy Bold', sans-serif;
     margin: 0;
@@ -32,38 +32,6 @@ header h1 {
 }
 
 nav {
-    background-color: #8B0000;
+    background-color: #556B2F;
     padding: 10px 0;
-    text-align: center;
-}
-
-nav a {
-    color: #FFFFFF;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
-    margin: 20px 0;
-}
-
-.about, .portfolio {
-    background-color: #7C0A02; /* 更深的复古红色背景 */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.blog-post {
-    background-color: #A52A2A;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.ripple, .dot {
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.3);
-    pointer-events: none;
-}
+​⬤
