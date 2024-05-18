@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ripple.style.height = `${size}px`;
         ripple.style.top = `${getRandomInt(0, window.innerHeight)}px`;
         ripple.style.left = `${getRandomInt(0, window.innerWidth)}px`;
+        ripple.style.backgroundColor = 'rgba(0, 100, 0, 0.3)'; // 深绿色半透明
         body.appendChild(ripple);
     }
 
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         dot.style.height = `${size}px`;
         dot.style.top = `${getRandomInt(0, window.innerHeight)}px`;
         dot.style.left = `${getRandomInt(0, window.innerWidth)}px`;
+        dot.style.backgroundColor = 'rgba(0, 100, 0, 0.3)'; // 深绿色半透明
         body.appendChild(dot);
     }
 
