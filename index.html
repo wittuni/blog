@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Math Blog</title>
+    <title>The Maths Blog</title>
     <style>
         body {
             background-color: #B22222; /* Vintage red background */
             color: #FFFFFF;
-            font-family: 'Courier New', Courier, monospace;
+           /* font-family: 'Courier New', Courier, monospace; */
+            @font-face {
+                font-family: 'Andy Bold';
+                src: url('fonts/Andy Bold.ttf') format('truetype'); /* 根据你的字体文件格式进行调整 */
+            }
+            body {
+                font-family: 'Andy Bold', sans-serif;
+            }
             margin: 0;
             padding: 0;
         }
